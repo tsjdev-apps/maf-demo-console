@@ -96,7 +96,7 @@ internal static class ConfigurationHelper
         if (string.IsNullOrWhiteSpace(GetOptionalSetting(config, "GitHubModels:Model")) &&
             string.IsNullOrWhiteSpace(GetOptionalSetting(config, "GitHubModels:Deployment")))
         {
-            missingSettings.Add("GitHubModels:Model");
+            missingSettings.Add("GitHubModels:Model or GitHubModels:Deployment");
         }
 
         return missingSettings;
