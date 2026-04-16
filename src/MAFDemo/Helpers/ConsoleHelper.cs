@@ -239,7 +239,7 @@ public static class ConsoleHelper
         string errorMessage)
     {
         AnsiConsole.WriteLine();
-        AnsiConsole.MarkupLine($"[red]{errorMessage}[/]");
+        AnsiConsole.MarkupLine($"[red]{Markup.Escape(errorMessage)}[/]");
     }
 
     /// <summary>
