@@ -19,7 +19,7 @@ internal static class SimpleAgent
 
         // create an agent from the chat client
         AIAgent writer = chatClient.AsAIAgent(
-            name: "cruise-planer",
+            name: "cruise-planner",
             instructions: "You are a helpful agent to help with cruise plans.");
 
         while (true)
