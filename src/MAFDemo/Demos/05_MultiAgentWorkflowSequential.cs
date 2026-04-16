@@ -7,7 +7,7 @@ using Spectre.Console;
 
 namespace MAFDemo.Demos;
 
-internal class MultiAgentWorklowSequential
+internal class MultiAgentWorkflowSequential
 {
     private const string DefaultPrompt = "Prepare a delivery brief for adding passkey-based step-up authentication to our B2B admin portal. Cover scope, implementation approach, rollout dependencies, and open risks.";
 

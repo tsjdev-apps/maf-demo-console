@@ -65,7 +65,7 @@ while (true)
                 break;
 
             case "05 - Multi-Agent Workflow (Sequential)":
-                await MultiAgentWorklowSequential.RunAsync();
+                await MultiAgentWorkflowSequential.RunAsync();
                 break;
 
             case "06 - Multi-Agent Workflow (Concurrent)":
