@@ -161,7 +161,7 @@ Reason: Some scenarios are better represented as a live conversation than as a p
 
 Purpose: The demo simulates an authentication incident bridge where a lead, an identity engineer, and a reliability engineer discuss the same issue until a stakeholder-ready final update is produced.
 
-### Demo 09 - Magentic (Planner-led)
+### Demo 09 - Multi-Agent Workflow (Magentic (Planner-led))
 
 File: [src/MAFDemo/Demos/09_MagenticPlannerWorkflow.cs](src/MAFDemo/Demos/09_MagenticPlannerWorkflow.cs)
 
