@@ -45,7 +45,7 @@ The application can start without secrets, but each demo validates its own requi
 
 ## Required User Secrets
 
-The application reads configuration from .NET User Secrets. For GitHub Models authentication, `GITHUB_TOKEN` can be used as an alternative to `GitHubModels:Token`.
+The application reads configuration from .NET User Secrets. For GitHub Models authentication, `GITHUB_TOKEN` can be used as an alternative to `GitHubModels:Token` or `GitHubModels:ApiKey`.
 
 ### Required For Most Demos
 
